@@ -1,26 +1,30 @@
 ## Assignment1
 
-**Task 1**
+**Task 1 :**
+
 Rewrite the Colab file and:
 1. remove the last activation function
 2. make sure there are in total 44 parameters
 3. run it for 2001 epochs
 
-For this we added an additional linear layer. Also we changed the no. of neurons in each layer, in the first layer we used  5 neurons, second layer 4.
+For this we added an additional linear layer. Also we changed the no. of neurons in each layer, in the first layer we used  5 neurons, second layer 4. Also we removed the last activation funation
 Total number of parmeter = 44
 * Input to Layer1 ---> 2 * 5 (weights) + 5 (biases) 
 * Layer1 to Layer2 ---> 5 * 4 (weights) + 4 (biases) 
 * Layer2 to Output ---> 4 * 1 (weights) + 1 (biases) 
 
-![]()
+![](images/nn.png)
 **Output** : 
  1. Parameters: 
- ![]()
+
+ ![](images/parameters.png)
  
  2. Training :
- ![]()
+
+ ![](images/training.png)
  
 
+**Task 2 :**
 
 ### 1. **What is a neural network neuron?**
  Neurons in deep learning were inspired by neurons in the human brain.Groups of neurons work together inside the human brain to perform the functionality that we require in our day-to-day lives. One important observation was that a neuron by itself is useless. Instead, we require networks of neurons to generate any meaningful functionality. This is because neurons function by receiving and sending signals. More specifically, the neuron’s dendrites receive signals and pass along those signals through the axon. The dendrites of one neuron are connected to the axon of another neuron. These connections are called synapses, which is a concept that has been generalized to the field of deep learning.
